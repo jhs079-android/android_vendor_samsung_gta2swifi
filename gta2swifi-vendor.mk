@@ -39,6 +39,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/lib/extractors/libmmparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib/extractors/libmmparser.so \
     vendor/samsung/gta2swifi/proprietary/lib/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib/fm_helium.so \
     vendor/samsung/gta2swifi/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
+    vendor/samsung/gta2swifi/proprietary/vendor/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcessConvertor.so \
+    vendor/samsung/gta2swifi/proprietary/vendor/lib/lib_SamsungRec_06003.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_06003.so \
+    vendor/samsung/gta2swifi/proprietary/vendor/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
     vendor/samsung/gta2swifi/proprietary/lib/libantradio.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libantradio.so \
     vendor/samsung/gta2swifi/proprietary/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaptX_encoder.so \
     vendor/samsung/gta2swifi/proprietary/lib/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdiag_system.so \
@@ -49,11 +52,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/lib/libmmrtpdecoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpdecoder.so \
     vendor/samsung/gta2swifi/proprietary/lib/libmmrtpencoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libmmrtpencoder.so \
     vendor/samsung/gta2swifi/proprietary/lib/libqomx_core.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqomx_core.so \
+    vendor/samsung/gta2swifi/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
+    vendor/samsung/gta2swifi/proprietary/vendor/lib/libsamsungVoipResampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungVoipResampler.so \
     vendor/samsung/gta2swifi/proprietary/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsdm-disp-apis.so \
     vendor/samsung/gta2swifi/proprietary/lib/libsecimaging.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecimaging.camera.samsung.so \
     vendor/samsung/gta2swifi/proprietary/lib/libsecjpeginterface.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecjpeginterface.camera.samsung.so \
     vendor/samsung/gta2swifi/proprietary/lib/libsecjpegquram.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecjpegquram.so \
     vendor/samsung/gta2swifi/proprietary/lib/libsemcamera_jni.camera.samsung.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsemcamera_jni.camera.samsung.so \
+    vendor/samsung/gta2swifi/proprietary/vendor/lib/libtfa98xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtfa98xx.so \
     vendor/samsung/gta2swifi/proprietary/lib/vendor.display.color@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.color@1.0.so \
     vendor/samsung/gta2swifi/proprietary/lib/vendor.display.color@1.1.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.color@1.1.so \
     vendor/samsung/gta2swifi/proprietary/lib/vendor.display.color@1.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.display.color@1.2.so \
@@ -167,10 +173,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/playback_record_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/playback_record_audio_policy_configuration.xml \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/public.libraries.txt.backup:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt.backup \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/tms_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/tms_audio_policy_configuration.xml \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/workspaceFile.qwsp \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/samsung/gta2swifi/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
@@ -305,7 +309,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libalarmservice_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalarmservice_jni.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/libaudio_soundtrigger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_soundtrigger.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
