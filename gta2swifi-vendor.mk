@@ -119,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
-    vendor/samsung/gta2swifi/proprietary/vendor/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.camera.provider@2.4-service \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/hw/vendor.samsung.hardware.light@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.light@2.0-service \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@1.0-service \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
@@ -176,7 +175,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.samsung.hardware.camera.provider@2.4-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.camera.provider@2.4-service.rc \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.samsung.hardware.light@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.light@2.0-service.rc \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.samsung.security.sem@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.security.sem@1.0-service.rc \
@@ -217,10 +215,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
     vendor/samsung/gta2swifi/proprietary/vendor/firmware/wlan/prima/WCNSS_wlan_dictionary.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/WCNSS_wlan_dictionary.dat \
     vendor/samsung/gta2swifi/proprietary/vendor/firmware/wlan/prima/grippower.info:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan/prima/grippower.info \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@1.0-impl.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.2-impl.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.3-impl.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera.device@3.4-impl.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/com.qualcomm.qti.bluetooth_audio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.bluetooth_audio@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
@@ -258,7 +252,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.camera.provider@2.4-impl.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/vendor.samsung.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.light@2.0-impl.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
@@ -815,19 +808,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@1.0-impl.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@3.2-impl.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@3.3-impl.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.camera.device@3.4-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.camera.device@3.4-impl.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.external.secure_storage@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.external.secure_storage@2.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.frameworks.ucm.wifi@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.frameworks.ucm.wifi@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth@1.0.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@1.0.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@3.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@3.2.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@3.3.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@3.3.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.camera.device@3.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.device@3.4.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@2.4.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.provider@2.4.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.camera.provider@2.5.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.camera.provider@2.5.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.exthealth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.exthealth@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.light@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.light@2.0.so \
