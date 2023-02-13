@@ -144,9 +144,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/tftp_server:$(TARGET_COPY_OUT_VENDOR)/bin/tftp_server \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/thermal-engine:$(TARGET_COPY_OUT_VENDOR)/bin/thermal-engine \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
-    vendor/samsung/gta2swifi/proprietary/vendor/bin/vendor.samsung.security.sem@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.security.sem@1.0-service \
-    vendor/samsung/gta2swifi/proprietary/vendor/bin/vendor.samsung.security.skpm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.security.skpm@1.0-service \
-    vendor/samsung/gta2swifi/proprietary/vendor/bin/vendor.samsung.security.wvkprov_server@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.samsung.security.wvkprov_server@1.0-service \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/wvkprov:$(TARGET_COPY_OUT_VENDOR)/bin/wvkprov \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Bluetooth_cal.acdb \
@@ -186,9 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.samsung.hardware.light@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.light@2.0-service.rc \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.samsung.security.sem@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.security.sem@1.0-service.rc \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.samsung.security.skpm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.security.skpm@1.0-service.rc \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.samsung.security.wvkprov_server@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.security.wvkprov_server@1.0-service.rc \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/perf/perf-profile1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile1.conf \
@@ -657,7 +651,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/libremotedesktop_client.knox.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremotedesktop_client.knox.samsung.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
@@ -782,7 +775,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.external.secure_storage@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.external.secure_storage@2.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.exthealth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.exthealth@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@1.0.so \
@@ -791,10 +783,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.radio.sechook@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.sechook@1.0_vendor.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.2_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@1.2_vendor.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.vibrator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.vibrator@1.0.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.security.sem@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.security.sem@1.0.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.security.skpm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.security.skpm@1.0.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.security.wvkprov_server@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.security.wvkprov_server@1.0.so
+    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.vibrator@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.vibrator@1.0.so
 
 PRODUCT_PACKAGES += \
     libaudioparsers \
