@@ -784,7 +784,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libaudioparsers \
-    libril \
     libsdm-disp-vndapis \
     libthermalclient \
     TimeService
