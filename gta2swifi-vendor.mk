@@ -101,6 +101,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/diag_socket_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_socket_log \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/diag_uart_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_uart_log \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/e_loop:$(TARGET_COPY_OUT_VENDOR)/bin/e_loop \
+    vendor/samsung/gta2swifi/proprietary/vendor/bin/energy-awareness:$(TARGET_COPY_OUT_VENDOR)/bin/energy-awareness \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/fm_qsoc_patches:$(TARGET_COPY_OUT_VENDOR)/bin/fm_qsoc_patches \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/fmconfig:$(TARGET_COPY_OUT_VENDOR)/bin/fmconfig \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/fmfactorytest:$(TARGET_COPY_OUT_VENDOR)/bin/fmfactorytest \
@@ -111,10 +112,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.gnss@1.0-service \
-    vendor/samsung/gta2swifi/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@1.0-service \
+    vendor/samsung/gta2swifi/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@2.0-service \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti \
-    vendor/samsung/gta2swifi/proprietary/vendor/bin/hw/vendor.samsung.hardware.miscpower@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.miscpower@1.0-service \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/irsc_util:$(TARGET_COPY_OUT_VENDOR)/bin/irsc_util \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/loc_launcher:$(TARGET_COPY_OUT_VENDOR)/bin/loc_launcher \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/lowi-server:$(TARGET_COPY_OUT_VENDOR)/bin/lowi-server \
@@ -124,6 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/mm-qjpeg-enc-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qjpeg-enc-test \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/mm-qomx-idec-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qomx-idec-test \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/mm-qomx-ienc-test:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qomx-ienc-test \
+    vendor/samsung/gta2swifi/proprietary/vendor/bin/msm_irqbalance:$(TARGET_COPY_OUT_VENDOR)/bin/msm_irqbalance \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/netmgrd:$(TARGET_COPY_OUT_VENDOR)/bin/netmgrd \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
@@ -173,14 +174,13 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/init/init.qti.fm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.fm.rc \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.gnss@1.0-service.rc \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
+    vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@2.0-service.rc \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.miscpower@1.0-service.rc \
+    vendor/samsung/gta2swifi/proprietary/vendor/etc/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/perf/perf-profile1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile1.conf \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
+    vendor/samsung/gta2swifi/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/public.libraries.txt.backup:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt.backup \
@@ -238,12 +238,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/android.hardware.gnss@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@1.0-impl-qti.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/audio.primary.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.msm8937.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/com.qualcomm.qti.ant@1.0-impl.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/power.qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.qcom.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/sensors.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.msm8937.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/thermal.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.msm8937.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/hw/vulkan.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.msm8937.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libAlacSwDec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libAlacSwDec.so \
@@ -614,6 +611,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdmapper.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdnotifier.so \
+    vendor/samsung/gta2swifi/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfgluelayer.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperipheral_client.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libqcmaputils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqcmaputils.so \
@@ -633,11 +631,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libqrtr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqrtr.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libqsocket.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqsocket.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-iopd-client.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd-client.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
@@ -672,7 +668,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libswvdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libswvdec.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libsystem_health_mon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsystem_health_mon.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalioctl.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtime_genoff.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libtinycompress_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinycompress_vendor.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
@@ -731,9 +726,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.fm@1.0_vendor.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@1.0.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.iop@2.0.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.qdutils_disp@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.hardware.radio.am@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.am@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.radio.atcmdfwd@1.0.so \
@@ -762,7 +754,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.bluetooth@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.bluetooth@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.gnss@1.0.so \
-    vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.miscpower@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.miscpower@1.0.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.secbridge@1.0_vendor.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.radio.sechook@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio.sechook@1.0_vendor.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib/vendor.samsung.hardware.radio@1.2_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung.hardware.radio@1.2_vendor.so \
@@ -785,13 +776,20 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib64/libllvm-glnext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-glnext.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib64/libllvm-qcom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libllvm-qcom.so \
+    vendor/samsung/gta2swifi/proprietary/vendor/lib64/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfconfig.so \
+    vendor/samsung/gta2swifi/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfgluelayer.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib64/libperipheral_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperipheral_client.so \
+    vendor/samsung/gta2swifi/proprietary/vendor/lib64/libqti-perfd-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd-client.so \
+    vendor/samsung/gta2swifi/proprietary/vendor/lib64/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd.so \
+    vendor/samsung/gta2swifi/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib64/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno_sha1.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib64/libscalar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscalar.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib64/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-color.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib64/libsdmextension.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdmextension.so \
+    vendor/samsung/gta2swifi/proprietary/vendor/lib64/libthermalfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalfeature.so \
+    vendor/samsung/gta2swifi/proprietary/vendor/lib64/libthermalioctl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthermalioctl.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib64/libtime_genoff.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtime_genoff.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/samsung/gta2swifi/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
@@ -799,5 +797,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libsdm-disp-vndapis \
-    libaudioparsers \
-    libthermalclient
+    libthermalclient \
+    libaudioparsers
