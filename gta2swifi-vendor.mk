@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/athdiag:$(TARGET_COPY_OUT_VENDOR)/bin/athdiag \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
-    vendor/samsung/gta2swifi/proprietary/vendor/bin/cplay:$(TARGET_COPY_OUT_VENDOR)/bin/cplay \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/diag_callback_sample:$(TARGET_COPY_OUT_VENDOR)/bin/diag_callback_sample \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/diag_dci_sample:$(TARGET_COPY_OUT_VENDOR)/bin/diag_dci_sample \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/diag_klog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_klog \
@@ -96,14 +95,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/samsung/gta2swifi/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Bluetooth_cal.acdb \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/General_cal.acdb \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Global_cal.acdb \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Handset_cal.acdb \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Hdmi_cal.acdb \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Headset_cal.acdb \
+    vendor/samsung/gta2swifi/proprietary/vendor/etc/acdbdata/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Bluetooth_cal.acdb \
+    vendor/samsung/gta2swifi/proprietary/vendor/etc/acdbdata/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/General_cal.acdb \
+    vendor/samsung/gta2swifi/proprietary/vendor/etc/acdbdata/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Global_cal.acdb \
+    vendor/samsung/gta2swifi/proprietary/vendor/etc/acdbdata/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Handset_cal.acdb \
+    vendor/samsung/gta2swifi/proprietary/vendor/etc/acdbdata/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Hdmi_cal.acdb \
+    vendor/samsung/gta2swifi/proprietary/vendor/etc/acdbdata/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Headset_cal.acdb \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/Speaker_cal.acdb \
+    vendor/samsung/gta2swifi/proprietary/vendor/etc/acdbdata/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/Speaker_cal.acdb \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/Tfa9890.cnt:$(TARGET_COPY_OUT_VENDOR)/etc/Tfa9890.cnt \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/camera/D05QL_s5k5e3yx_module_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/D05QL_s5k5e3yx_module_info.xml \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/camera/P08QL_s5k4h5yc_module_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/P08QL_s5k4h5yc_module_info.xml \
@@ -136,7 +135,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/public.libraries.txt.backup:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt.backup \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/samsung/gta2swifi/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/samsung/gta2swifi/proprietary/vendor/etc/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/workspaceFile.qwsp \
     vendor/samsung/gta2swifi/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
     vendor/samsung/gta2swifi/proprietary/vendor/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
     vendor/samsung/gta2swifi/proprietary/vendor/firmware/a225p5_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225p5_pm4.fw \
